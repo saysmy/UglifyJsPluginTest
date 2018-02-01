@@ -1,8 +1,8 @@
 {
-  "name": "vue2webpack2",
+  "name": "vue2webpack3",
   "version": "1.0.0",
-  "description": "vue2.0 + webpack2.x",
-  "main": "webpack.config.js",
+  "description": "vue2.0 + webpack3.x",
+  "main": "webpack-vendor.config.js",
   "scripts": {
     "vendor": "set NODE_ENV=production&&webpack --progress --colors --config ./webpack-vendor.config.js",
     "vendor-dev": "webpack --progress --colors --config ./webpack-vendor.config.js"
